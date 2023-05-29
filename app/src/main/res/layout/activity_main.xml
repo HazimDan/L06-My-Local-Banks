@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/back"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/title"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:textAllCaps="false"
+        android:focusable="true"
+        android:clickable="true"
+        android:fontFamily="@font/black_ops_one"
+        android:textColor="@color/black"
+        android:text="@string/bank_selection"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/dbs"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button"
+        android:clickable="false"
+        android:focusable="false"
+        android:fontFamily="@font/monoton"
+        android:text="@string/dbs"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/ocbc"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:clickable="false"
+        android:layout_marginTop="40dp"
+        android:focusable="false"
+        android:text="@string/ocbc"
+        android:fontFamily="@font/monoton"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/uob"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@drawable/button"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/monoton"
+        android:text="@string/uob"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/mayB"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:clickable="false"
+        android:focusable="false"
+        android:fontFamily="@font/monoton"
+        android:text="@string/maybank"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+</LinearLayout>

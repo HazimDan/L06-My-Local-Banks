@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Local Banks</string>
+    <string name="dbs">DBS BANK</string>
+    <string name="ocbc">OCBC BANK</string>
+    <string name="uob">UOB BANK</string>
+    <string name="bank_selection">BANK SELECTION</string>
+    <string name="maybank">MAYBANK</string>
+    <string name="removeFavourites">Remove From Favourites</string>
+    <string name="addFavourites">Add To Favourites</string>
+    <string name="contact">Contact</string>
+    <string name="website">Website</string>
+</resources>
